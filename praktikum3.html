@@ -1,16 +1,48 @@
-<!DOCTYPE html>
-<html>
 
+<!DOCTYPE html>
+<html lang="id">
 <head>
-  <title>Praktikum 3</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Foto</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .galeri {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .galeri img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Snoopy</h1>
-    
-    <p><a href="index.html">Kembali ke Menu Utama</a></p>
-    <img src="/snoopy.jpg"
-         alt="Gambar Praktikum"
-         width="300"
-</body>
 
+    <h2>Galeri Foto</h2>
+
+    <div class="galeri">
+        <!-- Foto dari perangkat -->
+        <img src="/snoopy2.jpg" alt="Foto 1">
+        <img src="/snoopy3.jpg" alt="Foto 2">
+        <img src="/snoopy4.jpg" alt="Foto 3">
+
+        <a href=https://www.instagram.com/p/DeggCFcBA7h/?dlrf=dzFrbGJ6eW45amls=</a>
+             Foto SMKN1 Leuwimunding
+        
+        <p><a href="index.html">kembali ke menu utama</a></p>
+    </div>
+</body>
 </html>
+
+  
